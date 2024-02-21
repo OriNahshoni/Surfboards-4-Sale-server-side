@@ -4,6 +4,8 @@ Introduction:
 
 In this project Iv'e developed a server-side application for an internet platform for selling used surfboards that controlled by an admin user and enables business users to publish, edit, and delete content, and regular users to watch it. The core focus is on building a clean and efficient RESTful API using Node.js and Express, with MongoDB as the underlying database.
 
+When you are reviewing my app, remember that using the initial DB created automatically, therefore the IDs of the cards will be new as well as the user's ID. make sure you are using the database information correctly.
+
 Technologies Used:
 
 Node.js
