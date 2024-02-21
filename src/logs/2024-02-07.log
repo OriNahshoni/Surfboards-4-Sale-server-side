@@ -1,0 +1,2 @@
+{"date":"2024-02-07T07:09:47.939Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-07T07:09:47.961Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}

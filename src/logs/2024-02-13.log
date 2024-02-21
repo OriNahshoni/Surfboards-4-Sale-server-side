@@ -1,0 +1,16 @@
+{"date":"2024-02-13T10:54:06.420Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:54:06.434Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:54:29.050Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:54:29.052Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:38.653Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:38.654Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:40.118Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:40.122Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:53.946Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:53.947Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:55.053Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:55.054Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:55.254Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:55.255Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-13T10:55:56.070Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-13T10:55:56.070Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}

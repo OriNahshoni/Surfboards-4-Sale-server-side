@@ -1,0 +1,4 @@
+{"date":"2024-02-20T11:48:33.897Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"65cf65da2ee095d27ab29a09.\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"65cf65da2ee095d27ab29a09.\"","value":"65cf65da2ee095d27ab29a09.","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"65cf65da2ee095d27ab29a09.\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-20T13:02:00.910Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-20T13:02:21.709Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-20T14:10:26.207Z","error":{"cardId":"65d4a4208a0c5b7af30b16fb","message":"You are not an admin or not the card creator","userId":"65d4afe48a0c5b7af30b1747"},"level":"error","message":"Permission Denied","status":403}

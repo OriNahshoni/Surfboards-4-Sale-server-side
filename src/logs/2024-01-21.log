@@ -1,0 +1,3 @@
+{"date":"2024-01-21T10:37:32.752Z","level":"error","message":"DB_CONNECTION_STRING IS NOT DEFINED IN your .env file","status":0}
+{"date":"2024-01-21T10:40:51.472Z","level":"error","message":"DB_CONNECTION_STRING IS NOT DEFINED IN your .env file","status":0}
+{"date":"2024-01-21T10:49:44.584Z","level":"error","message":"DB_CONNECTION_STRING IS NOT DEFINED IN your .env file","status":0}

@@ -1,0 +1,48 @@
+{"date":"2024-02-21T09:00:31.134Z","error":{"status":400},"level":"error","message":"token is missing in Authorization header","status":400}
+{"date":"2024-02-21T09:48:27.897Z","error":{"status":400},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-21T09:48:27.898Z","error":{"status":400},"level":"error","message":"token is missing in Authorization header","status":400}
+{"date":"2024-02-21T10:31:28.592Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T10:31:59.740Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T10:36:50.943Z","error":{"status":400},"level":"error","message":"Error in isAdmin middleware","status":500}
+{"date":"2024-02-21T10:36:50.944Z","error":{"status":400},"level":"error","message":"token is missing in Authorization header","status":400}
+{"date":"2024-02-21T10:37:03.471Z","error":{"email":"dov1@gmail.com"},"level":"error","message":"Must be admin","status":401}
+{"date":"2024-02-21T11:50:07.878Z","error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"dov1@gmail.com"}},"level":"error","message":"E11000 duplicate key error collection: surfboards_dev.users index: email_1 dup key: { email: \"dov1@gmail.com\" }"}
+{"date":"2024-02-21T11:53:39.090Z","error":{},"level":"error","message":"Cannot destructure property 'password' of 'user' as it is null."}
+{"date":"2024-02-21T11:56:14.942Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"65cf65da2ee095d27ab29a09","userId":"65cf65da2ee095d27ab29a0f"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-21T11:56:52.548Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"65cf65da2ee095d27ab29a09","userId":"65cf65da2ee095d27ab29a0f"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-21T12:01:09.566Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-21T12:01:09.567Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-21T12:02:40.212Z","error":{"status":404},"level":"error","message":"Card not found","status":404}
+{"date":"2024-02-21T12:22:04.315Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:22:08.313Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:22:15.461Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:15.298Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:15.300Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:41:15.301Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:41:16.915Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:16.916Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:41:16.916Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:41:18.116Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:18.117Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:41:18.118Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:41:19.320Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:19.321Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:41:19.322Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:41:20.910Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:41:20.911Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:41:20.912Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:43:00.582Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:43:00.583Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:43:00.584Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:43:02.041Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:43:02.042Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:43:02.043Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:43:03.553Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:43:03.554Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:43:03.554Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:43:06.846Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-21T12:43:06.847Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-21T12:43:06.848Z","error":{"status":401},"level":"error","message":"Bad credentials","status":401}
+{"date":"2024-02-21T12:52:58.821Z","error":{"cardId":"65cf65da2ee095d27ab29a15","message":"You are not an admin or not the card creator","userId":"65cf65da2ee095d27ab29a0f"},"level":"error","message":"Permission Denied","status":403}
+{"date":"2024-02-21T13:03:02.743Z","error":{"cardId":"65d5f37cb0a1ca67f8e8adcd","message":"You are not an admin or not the card creator","userId":"65d5f37cb0a1ca67f8e8adc2"},"level":"error","message":"Permission Denied","status":403}
+{"date":"2024-02-21T14:37:22.405Z","error":{"cardId":"65d5f37cb0a1ca67f8e8adc7","message":"You are not an admin or not the card creator","userId":"65d5f37cb0a1ca67f8e8adc2"},"level":"error","message":"Permission Denied","status":403}

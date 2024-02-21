@@ -1,0 +1,39 @@
+{"date":"2024-02-09T09:18:47.476Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T09:18:47.536Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T09:20:14.661Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T09:20:14.672Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T09:20:37.687Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T09:20:37.697Z","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"undefined\"","value":"undefined","valueType":"string"},"level":"error","message":"Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"users\""}
+{"date":"2024-02-09T10:40:22.130Z","error":{},"level":"error","message":"Cannot destructure property 'password' of 'user' as it is null."}
+{"date":"2024-02-09T10:46:53.479Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-09T11:22:13.211Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"undefined","userId":"65c33b0941ea2a36a6a66db0"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-09T11:22:13.292Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"undefined","userId":"65c33b0941ea2a36a6a66db0"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-09T11:22:25.534Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"undefined","userId":"65c33b0941ea2a36a6a66db0"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-09T11:22:25.637Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"undefined","userId":"65c33b0941ea2a36a6a66db0"},"level":"error","message":"Permission Denied","status":401}
+{"date":"2024-02-09T15:13:20.074Z","error":{"message":"\"address.zip\" is not allowed to be empty","path":["address","zip"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T15:13:56.291Z","error":{"message":"\"address.zip\" is not allowed to be empty","path":["address","zip"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T15:19:05.453Z","error":{"message":"\"address.zip\" is not allowed to be empty","path":["address","zip"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T15:19:57.050Z","error":{"message":"\"address.zip\" is not allowed to be empty","path":["address","zip"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T15:23:44.017Z","error":{"_message":"users validation failed","errors":{"image.alt":{"kind":"required","message":"Path `alt` is required.","name":"ValidatorError","path":"alt","properties":{"message":"Path `alt` is required.","path":"alt","type":"required","value":""},"value":""}},"message":"users validation failed: image.alt: Path `alt` is required.","name":"ValidationError"},"level":"error","message":"users validation failed: image.alt: Path `alt` is required."}
+{"date":"2024-02-09T15:27:11.179Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-11T08:59:20.300Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T08:59:20.355Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T08:59:20.416Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:00:45.034Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:00:45.062Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:00:45.065Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:00:57.698Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:00:57.700Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:00:57.701Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:08:26.947Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:08:26.992Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:08:26.993Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:09:04.418Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:09:04.495Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:09:04.496Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:10:21.171Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:10:21.177Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:10:21.180Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:13:56.197Z","error":{"email":"admin@gmail.com"},"level":"error","message":"User Must be a business","status":401}
+{"date":"2024-02-11T09:13:56.248Z","error":{"status":401},"level":"error","message":"Error in isBusiness middleware","status":500}
+{"date":"2024-02-11T09:13:56.249Z","error":{"status":401},"level":"error","message":"User Must be a business","status":401}

@@ -1,0 +1,139 @@
+  ### GET All users:
+GET http://localhost:8080/api/v1/users
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzY3OTU5NH0.heCBF9h2Im1p6cjJKmWpo8u6TrOe8cGNhJ2NEivjBPk
+
+
+### Add a user:
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "name": {
+    "first": "Dovik",
+    "last": "Nahshon"
+  },
+   "address": {
+    "street": "Shita",
+    "city": "Ein Habsor",
+    "country": "Israel",
+    "houseNumber": 20,
+    "zip": "12345"
+  },
+  "phone": "050-8123091",
+  "email": "dov6@gmail.com",
+  "isBusiness": true,
+  "password": "Abc!123Abc" 
+}
+
+
+### Login:
+POST http://localhost:8080/api/v1/users/login
+Content-Type: application/json
+
+{
+  "email": "dov1@gmail.com",
+  "password": "Abc!123Abc"
+}
+
+
+### get user by id with JWT of admin :
+GET http://localhost:8080/api/v1/users/65cf65da2ee095d27ab29a0f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzY3OTU5NH0.heCBF9h2Im1p6cjJKmWpo8u6TrOe8cGNhJ2NEivjBPk
+
+
+### GET user by id with jwt of the same user
+GET http://localhost:8080/api/v1/users/65cf65da2ee095d27ab29a0f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpc0FkbWluIjpmYWxzZSwiaXNCdXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNzA3ODIxNzg1fQ.KgyzDkCi6TkQkfxU9_84jUfJOC6fyBJedsxeXvQyq1w
+
+
+
+
+### PATCH user business status with JWT of the admin:
+PATCH  http://localhost:8080/api/v1/users/65cf65da2ee095d27ab29a0f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzY3OTU5NH0.heCBF9h2Im1p6cjJKmWpo8u6TrOe8cGNhJ2NEivjBPk
+Content-Type: application/json
+
+{ 
+  "isBusiness": true
+}
+
+### DELETE  user with JWT of the same user:
+DELETE http://localhost:8080/api/v1/users/65cf65da2ee095d27ab29a00
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IldheW5lQGJhdGNhdmUuY29tIiwiaWF0IjoxNzAzNjgwNDg5fQ.2_0k8uAr-Zw69B1e55vpcQEfx3_6d8E7fKk1F7CQ0rM
+
+
+### DELETE  user with JWT of Admin:
+DELETE http://localhost:8080/api/v1/users/658c1b56538163cbc7959e37
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlhdCI6MTcwMzY3OTU5NH0.heCBF9h2Im1p6cjJKmWpo8u6TrOe8cGNhJ2NEivjBPk
+
+
+
+### add a card: ### new card
+POST http://localhost:8080/api/v1/cards
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpc0FkbWluIjpmYWxzZSwiaXNCdXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNzA3ODIxNzg1fQ.KgyzDkCi6TkQkfxU9_84jUfJOC6fyBJedsxeXvQyq1w
+Content-Type: application/json
+
+{
+  "brand": "Albumi",
+  "model": "fish",
+  "condition": "good",
+  "size": 5.6,
+  "liters": 30,
+  "price": 1000,
+    "description": "new card description",
+  
+    "image": {
+        "url": "https://albumsurf.com/cdn/shop/files/IMG_7902.jpg?v=1691264184",
+        "alt": "album board"
+    },
+    "location":"ein habsor",
+    "phone":"0547734122"
+
+    
+}
+
+
+### Get all cards:
+GET http://localhost:8080/api/v1/cards
+
+### Get my-cards:
+GET http://localhost:8080/api/v1/cards/my-cards
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpYXQiOjE3MDM2ODcxNTV9.FhhSx3xBbERiY9EL68dBxpoxfcw9WkhpsJOq5V8XtTY
+
+### GET Card by id:
+GET http://localhost:8080/api/v1/cards/65cf65da2ee095d27ab29a15
+
+### PUT  Edit the card:
+PUT http://localhost:8080/api/v1/cards/65d5e61ffa0e7207118bb73f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpc0FkbWluIjpmYWxzZSwiaXNCdXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNzA3ODIxNzg1fQ.KgyzDkCi6TkQkfxU9_84jUfJOC6fyBJedsxeXvQyq1w
+Content-Type: application/json
+
+{
+  "brand": "Albums",
+  "model": "replica",
+  "condition": "good",
+  "size": 5.6,
+  "liters": 30,
+  "price": 1000,
+    "description": "new card description",
+  
+    "image": {
+        "url": "https://albumsurf.com/cdn/shop/files/IMG_7902.jpg?v=1691264184",
+        "alt": "album board"
+    },
+    "location":"ein habsor",
+    "phone":"0547734122"
+
+    
+}
+
+### DELETE a card by the creator:
+DELETE http://localhost:8080/api/v1/cards/65d5e61ffa0e7207118bb73f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpc0FkbWluIjpmYWxzZSwiaXNCdXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNzA3ODIxNzg1fQ.KgyzDkCi6TkQkfxU9_84jUfJOC6fyBJedsxeXvQyq1w
+
+### Like card:
+PATCH  http://localhost:8080/api/v1/cards/65d5e61ffa0e7207118bb73f
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9yaUBnbWFpbC5jb20iLCJpc0FkbWluIjpmYWxzZSwiaXNCdXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNzA3ODIxNzg1fQ.KgyzDkCi6TkQkfxU9_84jUfJOC6fyBJedsxeXvQyq1w
+
+
+
